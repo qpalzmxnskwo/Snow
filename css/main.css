@@ -20,10 +20,10 @@ p, .lead {
 }
 
 h1 {
-  font-size: 55px;
+  font-size: 25px;
   line-height: 55px;
   letter-spacing: -1px;
-  color: #ffffff;
+  color: #000000;
   font-weight: 700;
 }
 
@@ -31,7 +31,7 @@ h2 {
   font-size: 40px;
   line-height: 40px;
   etter-spacing: -0.5px;
-  color: #ffffff;
+  color: #000000;
   font-weight: 700;
 }
 
@@ -46,7 +46,7 @@ h3 {
 .lead {
   font-size: 21px;
   line-height: 26px;
-  color: #ffffff;
+  color: #000000;
   font-weight: 400;
 }
 
@@ -248,7 +248,7 @@ a:hover, a:focus {
 }
 
 .navbar-inverse .navbar-nav > li > a, .navbar-nav a {
-    color: #ffffff;
+    color: #000000;
     font-size: 14px;
     letter-spacing: 1px;
 }
@@ -458,7 +458,7 @@ footer {
 
 
 #pricing {
-  background: #70cbce;
+  background: #DCE4E9;
 }
 
 .pricing-container {
