@@ -79,28 +79,7 @@ img { max-width: 100%; }
 .testimonial-list .nav-tabs li.active a:focus { background: #ab99e0; border: 0; }
 
 
-/***** Footer *****/
-
-footer {
-	padding: 60px 0;
-	background: #333;
-	color: #ccc;
-	text-align: left;
-}
-footer a { color: #ab99e0; border: 0; }
-footer a:hover, footer a:focus { border-bottom: 1px dotted #ab99e0; outline: 0; }
-
-.footer-copyright {
-}
-
-.footer-social {
-	text-align: right;
-}
-.footer-social a { margin-right: 20px; color: #888; }
-.footer-social a:hover, .footer-social a:focus { color: #ab99e0; border: 0; }
-.footer-social i { font-size: 28px; vertical-align: text-top; }
-
-
+/
 
 
 /***** MEDIA QUERIES *****/
