@@ -135,6 +135,7 @@ a:hover, a:focus {
   color: #ffffff;
   border-radius: 50px;
   width: 180px;
+  display: inline-block;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active {
@@ -661,7 +662,6 @@ footer {
 }   
 
 #typetext{
-margin-top: 480px;
 color: black;
 font-size: 30px;
 font-weight: 900;
@@ -704,4 +704,9 @@ color: #0F0964;
 height: 500px;
 width: 100%;
 z-index: 0;
+}
+
+.test{
+  margin-top: 20px;
+  text-align: center;
 }
