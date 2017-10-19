@@ -30,7 +30,7 @@ h1 {
 h2 {
   font-size: 40px;
   line-height: 40px;
-  etter-spacing: -0.5px;
+  letter-spacing: -0.5px;
   color: #000000;
   font-weight: 700;
 }
@@ -127,33 +127,20 @@ a:hover, a:focus {
 }
 
 .btn-primary {
-  background-color:#70cbce;
+  background-color:#6960ee;
   color: #ffffff;
+  border-radius: 50px;
+  width: 180px;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active {
-  background-color: #8be2e5;
+  background-color: #3630bb;
   color: #ffffff;
   -webkit-transition: all 0.35s ease-in-out;
   -moz-transition: all 0.35s ease-in-out;
   -o-transition: all 0.35s ease-in-out;
   transition: all 0.35s ease-in-out;
 }
-
-.btn-secondary {
-  background-color: #ffffff;
-  color: #231f20;
-}
-
-.btn-secondary:hover, .btn-secondary:focus, .btn-secondary:active, .btn-secondary.active {
-  background-color: #ededed;
-  color: #231f20;
-  -webkit-transition: all 0.35s ease-in-out;
-  -moz-transition: all 0.35s ease-in-out;
-  -o-transition: all 0.35s ease-in-out;
-  transition: all 0.35s ease-in-out;
-}
-
 
 
 
@@ -291,6 +278,7 @@ header {
   -moz-background-size: cover;
   -o-background-size: cover;
 }
+
 
 .header-info {
   position: absolute;
@@ -431,7 +419,6 @@ hr.line {
   border-radius: 30px;
   margin: auto;
 }
-
 
 
 .news-container {
@@ -669,7 +656,48 @@ footer {
 
 }   
 
+#typetext{
+margin-top: 480px;
+color: black;
+font-size: 30px;
+font-weight: 900;
+font-family: 'Raleway', sans-serif;
+}
 
 
+#boxtext{
+}
 
+#flightbox{
+background-color: orange;  
+width: 50%;
+margin-top: 2vh;
+margin-left: auto;
+margin-right: auto;
+padding: 5px;
+border-radius: 4px;
+height: 200px;
+-webkit-box-shadow: -1px 10px 5px 0px rgba(186,215,219,1);
+-moz-box-shadow: -1px 10px 5px 0px rgba(186,215,219,1);
+box-shadow: -1px 10px 5px 0px rgba(186,215,219,1);
+}
 
+#headertext{
+margin-top: 2vh; 
+font-size: 20px;
+font-weight: 900;
+color: #011251;
+}
+
+#bottomheader{
+margin-top: 3vh;
+font-size: 23px;
+font-weight: 900;
+color: #0F0964;
+}
+
+#buttons{
+height: 500px;
+width: 100%;
+z-index: 0;
+}
