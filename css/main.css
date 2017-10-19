@@ -136,6 +136,8 @@ a:hover, a:focus {
   border-radius: 50px;
   width: 180px;
   display: inline-block;
+  font-weight: 900;
+  font-size: 15px;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active {
@@ -685,7 +687,7 @@ text-align: center;
 
 #flightbox{
 background-color: orange;  
-width: auto%;
+width: auto;
 margin-top: 2vh;
 margin-left: auto;
 margin-right: auto;
