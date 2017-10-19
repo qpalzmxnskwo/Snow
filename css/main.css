@@ -276,7 +276,7 @@ a:hover, a:focus {
 header {
   background: url(../img/header-bg.jpg) no-repeat center center;
   width: 100%;
-  height: 100vh;
+  height: 68vh;
   overflow: hidden;
   background-size: cover;
   -webkit-background-size: cover;
@@ -663,38 +663,48 @@ footer {
 
 #typetext{
 color: black;
-font-size: 30px;
+font-size: 25px;
 font-weight: 900;
 font-family: 'Raleway', sans-serif;
 }
 
 
 #boxtext{
+font-weight: 900;
+display: inline-block;
+font-size: 14px;
+}
+
+#boxtextinfo{
+font-size: 10px;
+margin-top: 8px;
+margin-bottom: -4px;  
+display: inline-block;
+text-align: center;
 }
 
 #flightbox{
 background-color: orange;  
-width: 50%;
+width: auto%;
 margin-top: 2vh;
 margin-left: auto;
 margin-right: auto;
 padding: 5px;
 border-radius: 4px;
-height: 200px;
--webkit-box-shadow: -1px 10px 5px 0px rgba(186,215,219,1);
--moz-box-shadow: -1px 10px 5px 0px rgba(186,215,219,1);
-box-shadow: -1px 10px 5px 0px rgba(186,215,219,1);
+-webkit-box-shadow: -1px 3px 5px 0px rgba(186,215,219,1);
+-moz-box-shadow: -1px 3px 5px 0px rgba(186,215,219,1);
+box-shadow: -1px 3px 5px 0px rgba(186,215,219,1);
 }
 
 #headertext{
-margin-top: 2vh; 
+margin-top: 1vh; 
 font-size: 20px;
 font-weight: 900;
 color: #011251;
 }
 
 #bottomheader{
-margin-top: 3vh;
+margin-top: 2vh;
 font-size: 23px;
 font-weight: 900;
 color: #0F0964;
@@ -703,10 +713,14 @@ color: #0F0964;
 #buttons{
 height: 500px;
 width: 100%;
-z-index: 0;
 }
 
-.test{
-  margin-top: 20px;
-  text-align: center;
+.underbutton{
+margin-top: 10px;
+text-align: center;
 }
+
+.clear{
+clear: both;
+}
+
