@@ -19,6 +19,10 @@ p, .lead {
 	font-family: 'Raleway', sans-serif;
 }
 
+.pclass {
+		color: #ab99e0;
+}
+
 h1 {
   font-size: 25px;
   line-height: 55px;
