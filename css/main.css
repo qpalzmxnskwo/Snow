@@ -715,7 +715,7 @@ color: #0F0964;
 }
 
 .underbutton{
-margin-top: 5px;
+margin-top: 10px;
 text-align: center;
 }
 
@@ -723,26 +723,30 @@ text-align: center;
 clear: both;
 }
 
-#atutytest{
+#atuty{
 background-color: #E3F8FD;
 font-weight: 900;
 font-size: 13px;
-padding-top: 50px;
+padding-top: 10px;
 padding-bottom: 60px;
 }
 
 #atutyHeader{
-  background-color: #45B3FF;
-  color: #fff;
-  font-size: 20px;
-  width: 600px;
-  height: 40px;
+  background-color: #ffd750;
+  color: gray;
+  font-size: 25px;
+  width: 20%;
+  height: 35px;
+  margin-top: 5px;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 50px;
-  padding-top: 5px;
-  letter-spacing: 3px;
+  margin-bottom: 40px;
+  letter-spacing: -2px;
   font-weight: lighter;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 10px 5px -7px rgba(130,130,130,1);
+  -moz-box-shadow: 0px 10px 5px -7px rgba(130,130,130,1);
+  box-shadow: 0px 10px 5px -7px rgba(130,130,130,1);
 }
 
 .atutyL{
