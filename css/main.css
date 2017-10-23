@@ -79,6 +79,10 @@ nav {
   padding-left: 10px;
 }
 
+nav:hover{
+  color: lightblue;
+}
+
 /*------------------Utilities---------------------*/
 a {
   color: inherit;
