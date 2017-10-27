@@ -27,7 +27,7 @@ h1 {
   font-size: 25px;
   line-height: 55px;
   letter-spacing: -1px;
-  color: #000000;
+  color: #011251;
   font-weight: 700;
 }
 
@@ -35,7 +35,7 @@ h2 {
   font-size: 40px;
   line-height: 40px;
   letter-spacing: -0.5px;
-  color: #000000;
+  color: #011251;
   font-weight: 700;
 }
 
@@ -47,10 +47,15 @@ h3 {
   font-weight: 700;
 }
 
+h4 {
+  font-size: 13px;
+  color: #0F0964;
+}
+
 .lead {
   font-size: 21px;
   line-height: 26px;
-  color: #000000;
+  color: #011251;
   font-weight: 400;
 }
 
@@ -59,6 +64,23 @@ p {
   line-height: 22px;
   color: #fff;
   font-weight: 400;
+}
+
+nav { 
+  float: right;
+  font-weight: 900;
+  padding-right: 15px;
+  padding-top: 5px;
+  max-width: 30%;
+}
+
+.navoption{
+  display: inline-block;
+  padding-left: 10px;
+}
+
+nav:hover{
+  color: lightblue;
 }
 
 /*------------------Utilities---------------------*/
@@ -668,32 +690,37 @@ color: black;
 font-size: 25px;
 font-weight: 900;
 font-family: 'Raleway', sans-serif;
-}
+} 
 
 
-#boxtext{
+.boxtext{
 font-weight: 900;
 display: inline-block;
 font-size: 14px;
+color: #000;
 }
 
-#boxtextinfo{
+.boxtextinfo{
 font-size: 10px;
 margin-top: 8px;
 margin-bottom: -4px;  
+margin-left: auto;
+margin-right: auto;
 display: inline-block;
-margin-left: 5%;
-margin-right: 5%;
 text-align: center;
+color: #987A15;
+margin-left: 3vw;
+margin-right: 3vw;
+
 }
 
 #flightbox{
+display: inline-block;
 background-color: #ffd750;  
 width: 50%;
 margin-top: 2vh;
 margin-left: auto;
-margin-right: auto;
-padding: 5px;
+padding: 3px;
 border-radius: 4px;
 -webkit-box-shadow: -1px 3px 5px 0px rgba(186,215,219,1);
 -moz-box-shadow: -1px 3px 5px 0px rgba(186,215,219,1);
@@ -701,14 +728,16 @@ box-shadow: -1px 3px 5px 0px rgba(186,215,219,1);
 }
 
 #headertext{
-margin-top: 1vh; 
 font-size: 20px;
 font-weight: 900;
 color: #011251;
+text-align: center;
+margin-right: auto;
+margin-left: auto;
+max-width: 30%;
 }
 
 #bottomheader{
-margin-top: 2vh;
 font-size: 23px;
 font-weight: 900;
 color: #0F0964;
@@ -733,7 +762,6 @@ padding-bottom: 60px;
 
 #atutyHeader{
   background-color: #ffd750;
-  color: gray;
   font-size: 25px;
   width: 20%;
   height: 35px;
@@ -791,6 +819,9 @@ margin-top: 3px;
   float: right;
   padding-right: 80px;
 }
+
+
+
   
 
 
